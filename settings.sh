@@ -6,10 +6,10 @@
 # General
 # =======
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "earth"
-sudo scutil --set HostName "earth"
-sudo scutil --set LocalHostName "earth"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "earth"
+sudo scutil --set ComputerName "vedwmac"
+sudo scutil --set HostName "vedwmac"
+sudo scutil --set LocalHostName "vedwmac"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "vedwmac"
 
 # Restart automatically if the computer freezes
 sudo systemsetup -setrestartfreeze on
@@ -83,6 +83,3 @@ chflags nohidden ~/Library
 
 # Remove duplicates in the “Open With” menu (also see `lscleanup` alias)
 /System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user
-
-
-

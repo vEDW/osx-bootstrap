@@ -30,7 +30,7 @@ qlcolorcode qlstephen qlmarkdown quicklook-json betterzipql suspicious-package
 # Window management
 spectacle
 # Logitech Unifying software for keyboard and trackball
-logitech-unifying
+#logitech-unifying
 
 ## Media
 # Video player
